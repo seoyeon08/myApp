@@ -11,10 +11,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        //start Loading Activity
-        Intent intent = new Intent(this, LoadingActivity.class);
-        startActivity(intent);
     }
 
 }
