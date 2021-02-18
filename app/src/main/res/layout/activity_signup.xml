@@ -75,7 +75,7 @@
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
             android:layout_weight="1"
-            android:text="ID"
+            android:text="E-mail"
             android:textSize="25dp" />
 
         <EditText
@@ -83,7 +83,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="8"
-            android:hint="ID를 입력하세요" />
+            android:hint="E-mail을 입력하세요" />
 
     </LinearLayout>
 
