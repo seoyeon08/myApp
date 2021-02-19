@@ -3,6 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:paddingLeft="20dp"
     android:paddingRight="20dp"
     android:orientation="vertical">
@@ -79,6 +80,8 @@
             android:layout_height="wrap_content"
             android:text="회원가입"
             android:layout_marginRight="5dp"
+            app:backgroundTint="@null"
+            android:background="@drawable/btn_purple"
             android:layout_weight="5" />
 
         <Button
@@ -87,6 +90,8 @@
             android:layout_height="wrap_content"
             android:text="찾기"
             android:layout_marginLeft="5dp"
+            app:backgroundTint="@null"
+            android:background="@drawable/btn_purple"
             android:layout_weight="5" />
     </LinearLayout>
 
@@ -94,6 +99,9 @@
         android:id="@+id/login_btn_login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_purple2"
+        app:backgroundTint="@null"
         android:text="로그인" />
 
 </LinearLayout>
