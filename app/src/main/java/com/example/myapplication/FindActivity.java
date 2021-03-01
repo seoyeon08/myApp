@@ -40,6 +40,8 @@ public class FindActivity extends Activity implements View.OnClickListener {
 
     }
 
+    //오늘은 조금 쉬어갈게요
+
     @Override
     public void onClick(View v) {
         if(v == buttonFind){
