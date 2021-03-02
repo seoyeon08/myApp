@@ -28,12 +28,24 @@
         app:backgroundTint="@null" />
 
     <Button
-        android:layout_marginTop="170dp"
+        android:layout_marginTop="30dp"
         android:layout_marginLeft="250dp"
         android:id="@+id/main_place"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="나의\nSoul\nPlace"
+        android:background="@drawable/btn_circle"
+        app:backgroundTint="@null"
+        android:textSize="30dp"
+        />
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="60dp"
+        android:id="@+id/main_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="my\nprofile"
         android:background="@drawable/btn_circle"
         app:backgroundTint="@null"
         android:textSize="30dp"
