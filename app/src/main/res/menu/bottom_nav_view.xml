@@ -2,11 +2,14 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/gpsItem"
-        android:title="GPS" />
+        android:title="GPS"
+        android:icon="@drawable/gps"/>
     <item
         android:id="@+id/mapItem"
+        android:icon="@drawable/map"
         android:title="MAP" />
     <item
         android:id="@+id/bookmarkItem"
+        android:icon="@drawable/bookmarks"
         android:title="BookMark" />
 </menu>
