@@ -19,6 +19,7 @@
             android:theme="@android:style/Theme.NoTitleBar"/>
         <activity android:name=".LoginActivity"/>
         <activity android:name=".SignUpActivity"/>
+        <activity android:name=".ProfileActivity"/>
     </application>
 
 </manifest>
